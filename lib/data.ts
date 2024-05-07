@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Visual Media Designer",
     location: "Nitish Studio",
     description:
-      "This was the joint venture where I was working with big clients and was creating promotional videos. Here I was also editing the videos for  ",
+      "This was the joint venture where I was working with big clients and was creating promotional videos. ",
     icon: React.createElement(CgWorkAlt),
     date: "Oct 2019 - Jan 2022",
   },
@@ -63,7 +63,7 @@ export const projectsData = [
   {
     title: "EasyCarRelo",
     description:
-      "A car re-locating cum renting app, my role was to handle the frontend and authentication while wokring with the team ",
+      "A car re-locating cum renting app, my role was to handle the frontend and authentication while wokring with the team. ",
     tags: ["React", "Redux Toolkit", "MongoDB", "BootStrap"],
     imageUrl: corpcommentImg,
     url: "https://www.easycarrelo.co.nz/",
@@ -71,7 +71,7 @@ export const projectsData = [
   {
     title: "GoFynd",
     description:
-      "An E-commerce app to purchase the cloths and appreals. Here a handle the Authentication, Product Page, Cart Page, Filtering and Searching",
+      "An E-commerce app to purchase the cloths and appreals. Here a handle the Authentication, Product Page, Cart Page, Filtering and Searching.",
     tags: ["React", "TypeScript", "Redux ToolKit", "Tailwind"],
     imageUrl: rmtdevImg,
     url: "https://www.gofynd.com/",
