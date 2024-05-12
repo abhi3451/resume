@@ -2,8 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+
+import easyCarRelo from "@/public/easyCarRelo.png";
+import champs from "@/public/champs.png";
+import artist from "@/public/artist.jpg";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -65,29 +67,30 @@ export const projectsData = [
     description:
       "A car re-locating cum renting app, my role was to handle the frontend and authentication while wokring with the team. ",
     tags: ["React", "Redux Toolkit", "MongoDB", "BootStrap"],
-    imageUrl: corpcommentImg,
+    imageUrl: easyCarRelo,
     url: "https://www.easycarrelo.co.nz/",
   },
   {
-    title: "GoFynd",
+    title: "champsSports",
     description:
-      "An E-commerce app to purchase the cloths and appreals. Here a handle the Authentication, Product Page, Cart Page, Filtering and Searching.",
+      "An E-commerce app to purchase the shoes. Here my role was to handle the Authentication, Product Page, Cart Page, Filtering and Searching.",
     tags: ["React", "TypeScript", "Redux ToolKit", "Tailwind"],
-    imageUrl: rmtdevImg,
-    url: "https://www.gofynd.com/",
+    imageUrl: champs,
+    url: "https://www.champssports.ca/en/category/boys",
   },
   {
-    title: "Sef Racing",
-    description: "A Quiz Pannle app to access the racing drivers.",
-    tags: ["React", "Tailwind", "Redux ToolKit"],
-    imageUrl: wordanalyticsImg,
-    url: "https://sefracing.com/",
+    title: "Artist Kwot",
+    description:
+      "Musicians, comedians and other artists can setup and manage their profile on Kwot. You can add your content, engage with your followers, and also earn money.",
+    tags: ["React", "Tailwind", "Redux ToolKit", "Next"],
+    imageUrl: artist,
+    url: "https://artist.kwot.com/",
   },
   {
     title: "ZeeKart",
     description:
       "An agro based ecommerce app. Made testable component and worked on the authentication, Product page, Description page, Checkout, Order summary.  ",
-    tags: ["React", "Tailwind", "Next js", "Redux ToolKit"],
+    tags: ["React", "Tailwind", "JEST", "Redux ToolKit", "Mongodb"],
     imageUrl: wordanalyticsImg,
     url: "",
   },
@@ -103,11 +106,13 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "ShadCN",
+  // "ShadCN",
   "Axios",
   "MongoDB",
   "Redux ToolKit",
   "JWT",
   "Express",
   "JEST",
+  "Version Control",
+  "GIT",
 ] as const;
