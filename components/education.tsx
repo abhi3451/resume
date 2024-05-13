@@ -7,19 +7,23 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { experiencesData } from "@/lib/data";
+import { educationData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
 
-export default function Experience() {
+export default function Education() {
   const { ref } = useSectionInView("Experience");
   const { theme } = useTheme();
 
   return (
-    <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
-      <SectionHeading>My experience</SectionHeading>
+    <section
+      id="education"
+      ref={ref}
+      className="scroll-mt-28 mb-28 sm:mb-40 w-full "
+    >
+      <SectionHeading>My Education</SectionHeading>
       <VerticalTimeline lineColor="">
-        {experiencesData.map((item, index) => (
+        {educationData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
@@ -45,13 +49,7 @@ export default function Experience() {
               }}
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>
-              <div className="flex gap-4 font-normal text-sm  !mt-0">
-                <span>{item.location}</span>
-                <span>{item.years} years</span>
-              </div>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/60">
-                {item.description}
-              </p>
+              <div className="font-normal text-sm  !mt-0">{item.Place}</div>
             </VerticalTimelineElement>
           </React.Fragment>
         ))}
