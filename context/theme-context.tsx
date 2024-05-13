@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState, createContext, useContext } from "react";
 
-type Theme = "dark" | "light";
+type Theme = "light" | "dark";
 
 type ThemeContextProviderProps = {
   children: React.ReactNode;
@@ -42,8 +42,8 @@ export default function ThemeContextProvider({
         document.documentElement.classList.add("dark");
       }
     } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setTheme("dark");
-      document.documentElement.classList.add("dark");
+      setTheme("light");
+      document.documentElement.classList.add("light");
     }
   }, []);
 
