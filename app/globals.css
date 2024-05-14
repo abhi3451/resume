@@ -53,12 +53,18 @@ html.dark {
 
 /* animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; */
 
-@keyframes pulse {
-  0%,
-  100% {
+@keyframes blink {
+  0% {
     opacity: 1;
   }
   50% {
     opacity: 0.5;
   }
+  100% {
+    opacity: 1;
+  }
+}
+
+.blinking {
+  animation: blink 1s infinite; /* Change '1s' to control the blinking speed */
 }
