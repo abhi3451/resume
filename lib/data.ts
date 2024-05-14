@@ -5,10 +5,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { FaUserGraduate } from "react-icons/fa";
 
-import easyCarRelo from "@/public/easyCarRelo.png";
 import champs from "@/public/champs.png";
-import artist from "@/public/artist.jpg";
-import zee from "@/public/zee.jpg";
 
 export const links = [
   {
@@ -96,7 +93,8 @@ export const projectsData = [
     description:
       "A car re-locating cum renting app, my role was to handle the frontend and authentication while wokring with the team. ",
     tags: ["React", "Redux Toolkit", "MongoDB", "BootStrap"],
-    imageUrl: easyCarRelo,
+    imageUrl:
+      "https://res.cloudinary.com/abhi-3451/image/upload/v1715673288/portfolio%20images/b6mbcxjrhe4ogrvas4yj.webp",
     url: "https://www.easycarrelo.co.nz/",
   },
   {
@@ -104,7 +102,8 @@ export const projectsData = [
     description:
       "An E-commerce app to purchase the shoes. Here my role was to handle the Authentication, Product Page, Cart Page, Filtering and Searching.",
     tags: ["React", "TypeScript", "Redux ToolKit", "Tailwind"],
-    imageUrl: champs,
+    imageUrl:
+      "https://res.cloudinary.com/abhi-3451/image/upload/v1715673287/portfolio%20images/rsukesih8m8hb5lysreo.webp",
     url: "https://www.champssports.ca/en/category/boys",
   },
   {
@@ -112,7 +111,8 @@ export const projectsData = [
     description:
       "Musicians, comedians and other artists can setup and manage their profile on Kwot. You can add your content, engage with your followers, and also earn money.",
     tags: ["React", "Tailwind", "Redux ToolKit", "Next"],
-    imageUrl: artist,
+    imageUrl:
+      "https://res.cloudinary.com/abhi-3451/image/upload/v1715673288/portfolio%20images/gnafn9qo28vg6u4mq6hb.webp",
     url: "https://artist.kwot.com/",
   },
   {
@@ -120,7 +120,8 @@ export const projectsData = [
     description:
       "An agro based ecommerce app. Made testable component and worked on the authentication, Product page, Description page, Checkout, Order summary.  ",
     tags: ["React", "Tailwind", "JEST", "Redux ToolKit", "Mongodb"],
-    imageUrl: zee,
+    imageUrl:
+      "https://res.cloudinary.com/abhi-3451/image/upload/v1715673289/portfolio%20images/x995bhwvn3tmwxvorb8g.webp",
     url: "",
   },
 ] as const;

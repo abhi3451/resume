@@ -54,10 +54,9 @@ export default function Project({
             </ul>
           </div>
 
-          <Image
+          <img
             src={imageUrl}
             alt="Project I worked on"
-            quality={95}
             className="absolute hidden sm:block top-8 -right-[120px] w-[28.75rem]  rounded-t-lg shadow-2xl
        
 
