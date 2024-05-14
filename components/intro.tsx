@@ -56,26 +56,15 @@ export default function Intro() {
         </div>
       </div>
 
-      <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-      >
+      <div className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl">
         <span className="font-bold">Hello, I'm Abhishek.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">2 years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
         <span className="underline">MERN including Next.js</span>.
-      </motion.h1>
+      </div>
 
-      <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{
-          delay: 0.1,
-        }}
-      >
+      <div className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium">
         <Link
           href="#contact"
           className="group bg-gray-100 px-7 py-3 flex items-center gap-1 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
@@ -120,7 +109,7 @@ export default function Intro() {
             <CgMail />
           </a>
         </div>
-      </motion.div>
+      </div>
     </section>
   );
 }
