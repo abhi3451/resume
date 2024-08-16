@@ -119,10 +119,18 @@ export const projectsData = [
     title: "ZeeKart",
     description:
       "An agro based ecommerce app. Made testable component and worked on the authentication, Product page, Description page, Checkout, Order summary.  ",
-    tags: ["React", "Tailwind", "JEST", "Redux ToolKit", "Mongodb"],
+    tags: ["React", "Tailwind", "JEST", "Redux ToolKit"],
     imageUrl:
       "https://res.cloudinary.com/abhi-3451/image/upload/v1715673289/portfolio%20images/x995bhwvn3tmwxvorb8g.webp",
     url: "",
+  },
+  {
+    title: "Strinz",
+    description: "An AI Based Chat App  ",
+    tags: ["React", "Tailwind", "JEST", "Redux ToolKit"],
+    imageUrl:
+      "https://res.cloudinary.com/abhi-3451/image/upload/v1723814753/portfolio%20images/hhkt5ajkxxghlotc7csa.png",
+    url: "https://www.strinz.online/",
   },
 ] as const;
 
