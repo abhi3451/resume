@@ -8,19 +8,14 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { educationData } from "@/lib/data";
-import { useSectionInView } from "@/lib/hooks";
+
 import { useTheme } from "@/context/theme-context";
 
 export default function Education() {
-  const { ref } = useSectionInView("Experience");
   const { theme } = useTheme();
 
   return (
-    <section
-      id="education"
-      ref={ref}
-      className="scroll-mt-28 mb-28 sm:mb-40 w-full "
-    >
+    <section id="education" className="scroll-mt-28 mb-28 sm:mb-40 w-full ">
       <SectionHeading>My Education</SectionHeading>
       <VerticalTimeline lineColor="">
         {educationData.map((item, index) => (

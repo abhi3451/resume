@@ -32,34 +32,7 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
-  {
-    title: "Front-End Developer",
-    location: "N2P Digital Agency",
-    description:
-      "Developed and maintained 4 responsive web applications using React, resulting in a remarkable 10% increase in user engagement. Collaborated with a cross-functional team to implement a new design system, reducing UI development time by an impressive 20%. Achieved a remarkable 99% code maintainability score through regular code reviews and refactoring, ensuring long-term project scalability. My stack includes React, Next.js, TypeScript, Tailwind, Express and MongoDB. ",
-    icon: React.createElement(FaReact),
-    date: "Feb 2022 - Feb 2024",
-    years: 2,
-  },
-  {
-    title: "Visual Media Designer",
-    location: "Nitish Studio",
-    description:
-      "This was the joint venture where I was working with big clients and was creating promotional videos. ",
-    icon: React.createElement(CgWorkAlt),
-    years: 2.3,
-    date: "Oct 2019 - Jan 2022",
-  },
-  {
-    title: "Motion Graphic Artist",
-    location: "Fotografik Enterprises",
-    description: "I worked on AE and Photoshop.",
-    icon: React.createElement(LuGraduationCap),
-    date: "June 2019 - Oct 2019",
-    years: 0.3,
-  },
-] as const;
+
 
 export const educationData = [
   {
