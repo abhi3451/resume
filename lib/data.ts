@@ -16,10 +16,6 @@ export const links = [
     name: "About",
     hash: "#about",
   },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
 
   {
     name: "Skills",
@@ -66,13 +62,6 @@ export const experiencesData = [
 ] as const;
 
 export const educationData = [
-  {
-    title: "MCA (Distance)",
-    Place: "LPU",
-
-    icon: React.createElement(FaUserGraduate),
-    date: "2021 - 2023",
-  },
   {
     title: "AAIP",
     Place: "ARENA ANIMATIONS",
@@ -126,7 +115,9 @@ export const projectsData = [
   },
   {
     title: "Strinz",
-    description: "An AI Based Chat App  ",
+    description:
+      "An AI Based Chat App. I created role based admin panel through which admin can add stickers and messages.  ",
+
     tags: ["React", "Tailwind", "JEST", "Redux ToolKit"],
     imageUrl:
       "https://res.cloudinary.com/abhi-3451/image/upload/v1723814753/portfolio%20images/hhkt5ajkxxghlotc7csa.png",
